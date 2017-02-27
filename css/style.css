@@ -14,9 +14,7 @@ h2 {
     font-family: "Audiowide", cursive;
 }
 
-h3 {
-    position: relative;
-}
+ 
 
 p {
     font-family: "Arvo", serif;
@@ -124,9 +122,11 @@ li {
 }
 
 
-/*NEW YORK PIZZAS*/
+/*NEW YORK, CHICAGO, SAN FRAN PIZZA CONTAINERS*/
 
-.pizzaBox {
+.pizzaBox,
+.pizzaBoat,
+.pizzaTrollie {
     position: relative;
     border: 2px solid darkslategrey;
     background-image: url(../imgs/stainless.jpg);
@@ -140,6 +140,8 @@ li {
     display: flex;
 }
 
+
+/*NEW YORK*/
 #subway,
 #theHumpty,
 #sultan {
@@ -172,20 +174,7 @@ li {
 
 
 /* CHICAGO PIZZAS*/
-
-.pizzaBoat {
-    position: relative;
-    border: 2px solid darkslategrey;
-    border-radius: 15px;
-    background-color: grey;
-    background-image: url(../imgs/stainless.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 95%;
-    min-height: 265px;
-    padding: 10px;
-    display: flex;
-}
+ 
 
 #theBotanica,
 #theMetro,
@@ -219,20 +208,7 @@ li {
 
 
 /* SAN FRAN PIZZAS*/
-
-.pizzaTrollie {
-    position: relative;
-    border: 2px solid darkslategrey;
-    border-radius: 15px;
-    background-color: grey;
-    background-image: url(../imgs/stainless.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 95%;
-    min-height: 265px;
-    padding: 10px;
-    display: flex;
-}
+ 
 
 #solstice,
 #theTrollie,

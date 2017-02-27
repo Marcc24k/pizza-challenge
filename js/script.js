@@ -1,4 +1,4 @@
-//alert("cowabunga!");
+ 
 
 (function () {
 
@@ -22,7 +22,7 @@
 
 
     function newYork() {
-        //    alert("hello");
+         
 
         //MAIN TITLE PROPERTIES
         var theSubway = "<span style = 'color: purple; font-weight: bold; font-family: Permanent Marker; '>Subway</span> ";
@@ -88,7 +88,7 @@
 
 
     function chicago() {
-        //        alert("hello");
+        
 
 
         //MAIN TITLE VARIABLES
@@ -151,7 +151,7 @@
 
 
     function sanFran() {
-        //        alert("hello");
+        
 
 
 
