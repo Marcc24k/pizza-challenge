@@ -55,6 +55,15 @@
         width: 74%;
         min-height: 680px;
     }
+    
+/*    NEW YORK*/
+    
+      .pizzaBox {
+        width: 104%;
+        left: -17px;
+        min-height: 485px;
+        margin-top: 5px;
+    }
     #subway {
         position: absolute;
         width: 89%;
@@ -84,12 +93,86 @@
         line-height: 26px;
         font-size: 14px;
     }
-    .pizzaBox {
+  
+    
+/*    CHICAGO*/
+     .pizzaBoat {
         width: 104%;
         left: -17px;
         min-height: 455px;
         margin-top: 5px;
     }
+    
+       #theBotanica {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #theMetro {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 170px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #gratzi {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 331px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+   
+/*    SAN FRAN*/
+     
+     .pizzaTrollie {
+        width: 104%;
+        left: -17px;
+        min-height: 455px;
+        margin-top: 5px;
+    }
+    
+       #solstice {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #theTrollie {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 170px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #downHillJam {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 331px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+   
+/*    FOOTER*/
     footer {
         position: absolute;
         top: 1326px;
@@ -154,6 +237,14 @@
         width: 74%;
         min-height: 680px;
     }
+    /*    NEW YORK*/
+    
+      .pizzaBox {
+        width: 104%;
+        left: -17px;
+        min-height: 485px;
+        margin-top: 5px;
+    }
     #subway {
         position: absolute;
         width: 89%;
@@ -183,11 +274,83 @@
         line-height: 26px;
         font-size: 14px;
     }
-    .pizzaBox {
+  
+    
+/*    CHICAGO*/
+     .pizzaBoat {
         width: 104%;
         left: -17px;
         min-height: 455px;
         margin-top: 5px;
+    }
+    
+       #theBotanica {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #theMetro {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 170px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #gratzi {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 331px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+   
+/*    SAN FRAN*/
+     
+     .pizzaTrollie {
+        width: 104%;
+        left: -17px;
+        min-height: 455px;
+        margin-top: 5px;
+    }
+    
+       #solstice {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #theTrollie {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 170px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #downHillJam {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 331px;
+        border-radius: 10px;
+        line-height: 21px;
+        font-size: 14px;
     }
     footer {
         position: absolute;
@@ -288,6 +451,88 @@
         line-height: 45px;
         top: 0px;
     }
+    
+/*    CHICAGO*/
+     .pizzaBoat {
+        position: relative;
+        border: 2px solid darkslategrey;
+        border-radius: 15px;
+        background-color: grey;
+        width: 95%;
+        min-height: 265px;
+        padding: 10px;
+        display: flex;
+    }
+    #theBotanica {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+    }
+    #theMetro {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+        top: 0px;
+    }
+    #gratzi {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+        top: 0px;
+    }
+    
+/*    SAN FRAN*/
+     .pizzaTrollie {
+        position: relative;
+        border: 2px solid darkslategrey;
+        border-radius: 15px;
+        background-color: grey;
+        width: 95%;
+        min-height: 265px;
+        padding: 10px;
+        display: flex;
+    }
+    #solstice {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+    }
+    #theTrollie {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+        top: 0px;
+    }
+    #downHillJam {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+        top: 0px;
+    }
     footer {
         position: absolute;
         top: 1085px;
@@ -349,6 +594,7 @@
         width: 50%;
         min-height: 468px;
     }
+/*    NEW YORK*/
     .pizzaBox {
         position: relative;
         border: 2px solid darkslategrey;
@@ -364,10 +610,10 @@
         position: relative;
         width: 100%;
         height: 225px;
-        ;
+        
         border-radius: 100%;
         padding: 10px;
-        font-size: 21px;
+        font-size: 20px;
         line-height: 47px;
     }
     #theHumpty {
@@ -376,7 +622,7 @@
         height: 225px;
         border-radius: 100%;
         padding: 10px;
-        font-size: 21px;
+        font-size: 17px;
         line-height: 47px;
         top: 0px;
     }
@@ -386,8 +632,95 @@
         height: 225px;
         border-radius: 100%;
         padding: 10px;
-        font-size: 21px;
+        font-size: 20px;
         line-height: 47px;
+        top: 0px;
+    }
+    
+/*    CHICAGO*/
+    .pizzaBoat {
+        position: relative;
+        border: 2px solid darkslategrey;
+        border-radius: 15px;
+        background-color: grey;
+        width: 95%;
+        min-height: 265px;
+        padding: 10px;
+        display: flex;
+        left: 3px;
+    }
+    #theBotanica {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 17px;
+        line-height: 47px;
+    }
+    #theMetro {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 17px;
+        line-height: 47px;
+        top: 0px;
+    }
+    #gratzi {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 17px;
+        line-height: 47px;
+        top: 0px;
+    }
+    
+/*    SAN FRAN*/
+    
+    .pizzaTrollie {
+        position: relative;
+        border: 2px solid darkslategrey;
+        border-radius: 15px;
+        background-color: grey;
+        width: 95%;
+        min-height: 265px;
+        padding: 10px;
+        display: flex;
+        left: 3px;
+    }
+    #solstice {
+        position: relative;
+        width: 100%;
+        height: 225px;
+       
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 48px;
+    }
+    #theTrollie {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 47px;
+        top: 0px;
+    }
+    #downHillJam {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 48px;
         top: 0px;
     }
   footer {
