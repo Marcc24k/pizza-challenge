@@ -1,0 +1,324 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-color: darkslategray;
+    background-image: url(../imgs/pizza-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family: "Audiowide", cursive;
+}
+
+h3 {
+    position: relative;
+}
+
+p {
+    font-family: "Arvo", serif;
+    color: whitesmoke;
+}
+
+section {
+    position: relative;
+    /*    border: 2px solid red;*/
+    width: 80%;
+    min-height: 330px;
+    top: 200px;
+    left: 5%;
+    display: inline-block;
+}
+
+#imgs {
+    position: absolute;
+    top: 40px;
+    left: 2%;
+    width: 200px;
+}
+
+#chic {
+    position: absolute;
+    top: 20px;
+    left: 41.7%;
+}
+
+#sanfran {
+    position: absolute;
+    top: 70px;
+    left: 85%;
+    width: 200px;
+}
+
+.chef {
+    position: relative;
+    width: 100px;
+}
+
+ul {
+    position: ;
+}
+
+li {
+    position: relative;
+    display: block;
+}
+
+#orderForm {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    /*    border: 2px solid red;*/
+}
+
+#dialog {
+    position: relative;
+    width: 500px;
+    height: 100px;
+}
+
+.img-container {
+    position: relative;
+}
+
+#bg-container-img-ny {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkslategrey;
+    border-radius: 15px;
+    left: 0%;
+    background-image: url(../imgs/new-york-pixel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+#bg-container-img-chic {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkslategrey;
+    border-radius: 15px;
+    left: 40%;
+    background-image: url(../imgs/chicago-pixel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+#bg-container-img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkslategrey;
+    border-radius: 15px;
+    left: 40.9%;
+    background-image: url(../imgs/san-fran-pixel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+
+/*NEW YORK PIZZAS*/
+
+.pizzaBox {
+    position: relative;
+    border: 2px solid darkslategrey;
+    background-image: url(../imgs/stainless.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-color: grey;
+    width: 95%;
+    min-height: 265px;
+    padding: 10px;
+    display: flex;
+}
+
+#subway,
+#theHumpty,
+#sultan {
+    position: relative;
+    width: 100%;
+    height: 225px;
+    color: whitesmoke;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 4px 0px green;
+    font-size: 19px;
+    line-height: 47px;
+    font-family: "Indie Flower", cursive;
+    background-color: tomato;
+    opacity: .9;
+}
+
+#subway:hover,
+#theHumpty:hover,
+#sultan:hover {
+    box-shadow: 0px 0px 4px 0px rgb(209, 124, 92);
+    border: 5px solid rgb(119, 47, 20);
+    color: green;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+/* CHICAGO PIZZAS*/
+
+.pizzaBoat {
+    position: relative;
+    border: 2px solid darkslategrey;
+    border-radius: 15px;
+    background-color: grey;
+    background-image: url(../imgs/stainless.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    min-height: 265px;
+    padding: 10px;
+    display: flex;
+}
+
+#theBotanica,
+#theMetro,
+#gratzi {
+    position: relative;
+    width: 100%;
+    height: 225px;
+    color: darkgreen;
+    text-align: center;
+    border: 2px solid darkred;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 4px 0px darkred;
+    font-size: 19px;
+    line-height: 47px;
+    font-family: "Indie Flower", cursive;
+    background-color: tomato;
+    opacity: .9;
+}
+
+#theBotanica:hover,
+#theMetro:hover,
+#gratzi:hover {
+    box-shadow: 0px 0px 4px 0px green;
+    border: 5px solid green;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+/* SAN FRAN PIZZAS*/
+
+.pizzaTrollie {
+    position: relative;
+    border: 2px solid darkslategrey;
+    border-radius: 15px;
+    background-color: grey;
+    background-image: url(../imgs/stainless.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    min-height: 265px;
+    padding: 10px;
+    display: flex;
+}
+
+#solstice,
+#theTrollie,
+#downHillJam {
+    position: relative;
+    width: 100%;
+    height: 225px;
+    color: darkgreen;
+    text-align: center;
+    border: 2px solid darkred;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 4px 0px darkred;
+    font-size: 16px;
+    line-height: 47px;
+    font-family: "Indie Flower", cursive;
+    background-color: tomato;
+    opacity: .9;
+}
+
+#solstice:hover,
+#theTrollie:hover,
+#downHillJam:hover {
+    box-shadow: 0px 0px 4px 0px #52bab3;
+    border: 5px solid #5757b5;
+    color: purple;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 50%;
+    min-height: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(rgba(123, 180, 46, 0.85), rgba(190, 82, 199, 0.17));
+    background: -webkit-linear-gradient(rgba(123, 180, 46, 0.85), rgba(190, 82, 199, 0.17));
+    background: -o-linear-gradient(rgba(123, 180, 46, 0.85), rgba(190, 82, 199, 0.17));
+    opacity: .8
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+    background: #ff2700;
+}

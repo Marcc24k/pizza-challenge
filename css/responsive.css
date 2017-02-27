@@ -1,0 +1,399 @@
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 320px) {
+    body {
+        width: auto;
+    }
+    section {
+        position: relative;
+        /*    border: 2px solid red;*/
+        width: 90%;
+        height: 1326px;
+        top: 25px;
+        left: 5%;
+        display: inline-block;
+    }
+    .img-container {
+        display: flex;
+        /*    border: 2px solid orange;*/
+        width: 292px;
+        height: 420px;
+        left: 5%;
+    }
+    #imgs {
+        position: absolute;
+        top: 89px;
+        left: 17%;
+        width: 200px;
+    }
+    #bg-container-img-ny {
+        top: 30px;
+        left: 0;
+        width: 284px;
+    }
+    #chic {
+        top: 70px;
+        left: 9%;
+    }
+    #bg-container-img-chic {
+        top: 54px;
+        left: 0px;
+        width: 284px;
+    }
+    #bg-container-img {
+        display: block;
+        left: 0%;
+        top: 40px;
+    }
+    #sanfran {
+        top: 120px;
+        left: 51px;
+        width: 200px;
+        z-index: 2;
+    }
+    .modalDialog > div {
+        width: 74%;
+        min-height: 680px;
+    }
+    #subway {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    #theHumpty {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 170px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    #sultan {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 331px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    .pizzaBox {
+        width: 104%;
+        left: -17px;
+        min-height: 455px;
+        margin-top: 5px;
+    }
+    footer {
+        position: absolute;
+        top: 1326px;
+        border: 2px solid black;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        left: 0%;
+        color: whitesmoke;
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    body {
+        width: auto;
+        background-size: 100% 1500px;
+    }
+    section {
+        top: 20px;
+    }
+    .img-container {
+        display: flex;
+        /*    border: 2px solid orange;*/
+        width: 292px;
+        height: 420px;
+        left: 5%;
+    }
+    #imgs {
+        position: absolute;
+        top: 89px;
+        left: 17%;
+        width: 200px;
+    }
+    #bg-container-img-ny {
+        top: 30px;
+        left: 0;
+        width: 284px;
+    }
+    #chic {
+        top: 70px;
+        left: 9%;
+    }
+    #bg-container-img-chic {
+        top: 54px;
+        left: 0px;
+        width: 284px;
+    }
+    #bg-container-img {
+        display: block;
+        left: 0%;
+        top: 40px;
+    }
+    #sanfran {
+        position: absolute;
+        top: 120px;
+        left: 51px;
+        width: 200px;
+        z-index: 2;
+    }
+    .modalDialog > div {
+        width: 74%;
+        min-height: 680px;
+    }
+    #subway {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    #theHumpty {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 170px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    #sultan {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: -3px;
+        top: 331px;
+        border-radius: 10px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    .pizzaBox {
+        width: 104%;
+        left: -17px;
+        min-height: 455px;
+        margin-top: 5px;
+    }
+    footer {
+        position: absolute;
+        top: 1255px;
+        left: 36%;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: auto;
+        background-size: 100% 1300px;
+    }
+    section {
+        top: 18px;
+        left: 15%;
+    }
+    .img-container {
+        display: inherit;
+        /*    border: 2px solid orange;*/
+        width: 452px;
+        height: 350px;
+        left: 15%;
+        top: 0px;
+    }
+    #imgs {
+        position: absolute;
+        top: 89px;
+        left: 27%;
+        width: 200px;
+    }
+    #bg-container-img-ny {
+        top: 30px;
+        left: 80px;
+        /*    width: 284px;*/
+    }
+    #chic {
+        top: 48px;
+        left: 22%;
+    }
+    #bg-container-img-chic {
+        top: 24px;
+        left: 81px;
+        /*    width: 284px;*/
+    }
+    #bg-container-img {
+        left: 0%;
+        top: 30px;
+    }
+    #sanfran {
+        position: absolute;
+        top: 112px;
+        left: 130px;
+        width: 200px;
+        z-index: 2;
+    }
+    .modalDialog > div {
+        width: 94%;
+        min-height: 510px;
+    }
+    .pizzaBox {
+        position: relative;
+        border: 2px solid darkslategrey;
+        border-radius: 15px;
+        background-color: grey;
+        width: 95%;
+        min-height: 265px;
+        padding: 10px;
+        display: flex;
+    }
+    #subway {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+    }
+    #theHumpty {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+        top: 0px;
+    }
+    #sultan {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 45px;
+        top: 0px;
+    }
+    footer {
+        position: absolute;
+        top: 1085px;
+        left: 45%;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: auto;
+        background-size: 100% 1084px;
+    }
+    section{
+        left:290px;
+    }
+    .img-container {
+        display: inherit;
+/*            border: 2px solid orange;*/
+        width: 452px;
+        height: 350px;
+        left: 0%;
+        top: 0px;
+        padding-left: 10px;
+    }
+    #imgs {
+        position: absolute;
+        top: 89px;
+        left: 23%;
+        width: 200px;
+    }
+    #bg-container-img-ny {
+        top: 30px;
+        left: 63px;
+        width: 284px;
+    }
+    #chic {
+        top: 70px;
+        left: 24%;
+    }
+    #bg-container-img-chic {
+        top: 34px;
+        left: 90px;
+        width: 284px;
+    }
+    #bg-container-img {
+        display: block;
+        left: 0%;
+        top: 40px;
+    }
+    #sanfran {
+        position: absolute;
+        top: 120px;
+        left: 140px;
+        width: 200px;
+        z-index: 2;
+    }
+    .modalDialog > div {
+        width: 50%;
+        min-height: 468px;
+    }
+    .pizzaBox {
+        position: relative;
+        border: 2px solid darkslategrey;
+        border-radius: 15px;
+        background-color: grey;
+        width: 95%;
+        min-height: 265px;
+        padding: 10px;
+        display: flex;
+        left: 3px;
+    }
+    #subway {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        ;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 21px;
+        line-height: 47px;
+    }
+    #theHumpty {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 21px;
+        line-height: 47px;
+        top: 0px;
+    }
+    #sultan {
+        position: relative;
+        width: 100%;
+        height: 225px;
+        border-radius: 100%;
+        padding: 10px;
+        font-size: 21px;
+        line-height: 47px;
+        top: 0px;
+    }
+  footer {
+    position: absolute;
+    top: 944px;
+    left: 45%;
+    color: whitesmoke;
+}
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Audiowide|Indie+Flower|Orbitron|Permanent+Marker" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <section id="container" class="ui-widget-content" title="Don't be afraid to move me around if you like." <!-- NEW YORK PIZZA -->
+
+
+
+        <div class="img-container">
+
+            <div id="bg-container-img-ny"></div>
+
+            <a href="#openModal" onclick="newYork()"><img id="imgs" src="imgs/logo_no_shadow.png"></a>
+        </div>
+
+
+
+
+        <!--        MODAL VIEW NEW YORK-->
+        <div id="openModal" class="modalDialog">
+            <div> <a href="#close" title="Close" class="close">X</a>
+
+                <h2>New World Pizza</h2>
+                <img src="imgs/happy_chef.png" class="chef">
+
+                <p>Welcome to New World pizza!</p>
+                <p>Below you will find our specialties</p>
+                <div class="orderForm">
+
+
+                </div>
+
+                <div class="pizzaBox" onclick="order()">
+                    <div id="subway"></div>
+                    <div id="theHumpty"></div>
+                    <div id="sultan"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--   CHICAGO PIZZA -->
+
+        <div class="img-container">
+            <div id="bg-container-img-chic"></div>
+            <a href="#openModalChicago" onclick="chicago()"><img id="chic" src="imgs/chic-pizza.png"></a>
+        </div>
+
+
+
+
+
+        <!--        MODAL VIEW CHICAGO-->
+        <div id="openModalChicago" class="modalDialog">
+            <div> <a href="#close" title="Close" class="close">X</a>
+
+                <h2>Chicago Pizza</h2>
+
+                <img src="imgs/italianchef.png" class="chef">
+                <p>Welcome to Chicago Town Pizza!</p>
+                <p>These Pizza's will blow you away!</p>
+                <div class="orderForm">
+
+
+                </div>
+
+                <div class="pizzaBoat">
+                    <div id="theBotanica"></div>
+                    <div id="theMetro"></div>
+                    <div id="gratzi"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!--   SAN FRANSICO PIZZA -->
+
+        <div class="img-container">
+            <div id="bg-container-img"></div>
+            <a href="#openModalSanFran" onclick="sanFran()"><img src="imgs/logo-villagepizzeria-large.png" id="sanfran"></a>
+        </div>
+
+
+        <!--        MODAL VIEW SAN FRAN-->
+        <div id="openModalSanFran" class="modalDialog">
+            <div> <a href="#close" title="Close" class="close">X</a>
+
+                <h2>San Francisco Pizza</h2>
+                <img src="imgs/french-chef.png" class="chef">
+                <p>Welcome to Village Pizza!</p>
+                <p>Find <span style="font-style:italic">your</span> slice of heaven here!</p>
+                <div class="orderForm">
+
+
+                </div>
+                <div class="pizzaTrollie">
+                    <div id="solstice"></div>
+                    <div id="theTrollie"></div>
+                    <div id="downHillJam"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>&copy;2017 Pendragon Designs</footer>
+
+
+    <!--    SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
